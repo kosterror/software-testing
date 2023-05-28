@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Результат</title>
+    <link th:href="@{/result_page.css}" rel="stylesheet"/>
+</head>
+<body>
+<h1>Результат выполнения программы</h1>
+<form method="GET" action="/">
+    <div class="result">
+        <h2 id="result" th:text="${result}"></h2>
+        <button type="submit">Перейти к вводу</button>
+    </div>
+</form>
+</body>
+</html>

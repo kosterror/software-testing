@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Ввод</title>
+    <link th:href="@{/input_page.css}" rel="stylesheet"/>
+</head>
+<body>
+<h1>Ввод данных</h1>
+<form method="GET" action="/all-possible-palindromes">
+    <label for="input">Введите строку</label>
+    <input type="text" id="input" name="input" required>
+
+    <button id="submit-button" type="submit">Рассчитать</button>
+</form>
+</body>
+</html>

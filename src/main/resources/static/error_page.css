@@ -1,0 +1,20 @@
+.error-container {
+    background-color: #fff;
+    text-align: left;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.details {
+    font-size: 24px;
+    text-align: start;
+}
